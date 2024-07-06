@@ -1,0 +1,14 @@
+2024-07-02 22:24:51.788 EDT [44287] LOG:  starting PostgreSQL 14.12 (Homebrew) on x86_64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.202), 64-bit
+2024-07-02 22:24:51.792 EDT [44287] LOG:  listening on IPv6 address "::1", port 5432
+2024-07-02 22:24:51.792 EDT [44287] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-07-02 22:24:51.794 EDT [44287] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-07-02 22:24:51.800 EDT [44288] LOG:  database system was shut down at 2024-07-02 22:24:00 EDT
+2024-07-02 22:24:51.806 EDT [44287] LOG:  database system is ready to accept connections
+2024-07-02 22:31:36.898 EDT [44475] FATAL:  database "alejandraroa" does not exist
+2024-07-02 22:32:25.715 EDT [44506] FATAL:  lock file "postmaster.pid" already exists
+2024-07-02 22:32:25.715 EDT [44506] HINT:  Is another postmaster (PID 44287) running in data directory "/usr/local/var/postgres@14"?
+2024-07-02 22:34:28.794 EDT [44287] LOG:  received fast shutdown request
+2024-07-02 22:34:28.795 EDT [44287] LOG:  aborting any active transactions
+2024-07-02 22:34:28.798 EDT [44287] LOG:  background worker "logical replication launcher" (PID 44294) exited with exit code 1
+2024-07-02 22:34:28.799 EDT [44289] LOG:  shutting down
+2024-07-02 22:34:28.814 EDT [44287] LOG:  database system is shut down
